@@ -61,3 +61,7 @@
 - Metrics and Models in Software Quality Engineering, Second Edition, Stephen H. Kan
 - How Google Tests Software, James Whittacker, Jason Arbon, Jeff Carollo
 - http://www.softwaretestinghelp.org/
+
+## Cloud Storage
+
+http://yunpan.cn/Q43XWwjSLc5A3
