@@ -1,0 +1,501 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:214px;
+    top:16px;
+    width:331px;
+    height:650px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:331px;
+    height:650px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:317px;
+    width:327px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../学习_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:236px;
+    top:132px;
+    width:288px;
+    height:42px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:48px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../学习_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:236px;
+    top:174px;
+    width:286px;
+    height:389px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:292px;
+    height:395px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:186px;
+    width:282px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../学习_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:310px;
+    top:208px;
+    width:139px;
+    height:75px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:145px;
+    height:81px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:135px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../学习_files/u6_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:310px;
+    top:314px;
+    width:139px;
+    height:75px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:145px;
+    height:81px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:135px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../学习_files/u6_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:310px;
+    top:420px;
+    width:139px;
+    height:75px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:145px;
+    height:81px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:135px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:603px;
+    top:194px;
+    width:394px;
+    height:200px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:349px;
+    top:140px;
+    width:62px;
+    height:23px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../学习_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:235px;
+    top:521px;
+    width:288px;
+    height:42px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:48px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:247px;
+    top:534px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:319px;
+    top:534px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:388px;
+    top:534px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:461px;
+    top:534px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_line {
+    background-image: url('../学习_files/u20_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:3px;
+    top:0px;
+    width:5px;
+    height:16px;
+}
+
+.u20 {
+    position:absolute;
+    left:292px;
+    top:534px;
+    width:10px;
+    height:16px;
+    
+}
+
+.u21_line {
+    background-image: url('../学习_files/u21_line.png');
+}
+
+.u21_line {
+    position:absolute;
+    left:3px;
+    top:0px;
+    width:5px;
+    height:16px;
+}
+
+.u21 {
+    position:absolute;
+    left:366px;
+    top:534px;
+    width:10px;
+    height:16px;
+    
+}
+
+.u22_line {
+    background-image: url('../学习_files/u22_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:3px;
+    top:0px;
+    width:5px;
+    height:16px;
+}
+
+.u22 {
+    position:absolute;
+    left:434px;
+    top:534px;
+    width:10px;
+    height:16px;
+    
+}
+
+.u23 {
+    position:absolute;
+    left:439px;
+    top:150px;
+    width:73px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../学习_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:485px;
+    top:138px;
+    width:31px;
+    height:31px;
+}
+
+#u24_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../学习_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:236px;
+    top:174px;
+    width:287px;
+    height:48px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:293px;
+    height:54px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:283px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:246px;
+    top:185px;
+    width:268px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

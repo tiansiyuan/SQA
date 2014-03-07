@@ -1,0 +1,350 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:214px;
+    top:16px;
+    width:331px;
+    height:650px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:331px;
+    height:650px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:317px;
+    width:327px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_container {
+    position:absolute;
+    left:235px;
+    top:132px;
+    width:288px;
+    height:430px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:288px;
+    height:430px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:207px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../引导学生注册向导页面_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:235px;
+    top:132px;
+    width:288px;
+    height:42px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:48px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:284px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../引导学生注册向导页面_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:248px;
+    top:263px;
+    width:261px;
+    height:39px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:267px;
+    height:45px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:257px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../引导学生注册向导页面_files/u6_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:248px;
+    top:320px;
+    width:261px;
+    height:39px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:267px;
+    height:45px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:257px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../引导学生注册向导页面_files/u6_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:248px;
+    top:376px;
+    width:261px;
+    height:39px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:267px;
+    height:45px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:257px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../引导学生注册向导页面_files/u6_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:248px;
+    top:433px;
+    width:261px;
+    height:39px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:267px;
+    height:45px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:257px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../引导学生注册向导页面_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:264px;
+    top:499px;
+    width:223px;
+    height:44px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:229px;
+    height:50px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:219px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../引导学生注册向导页面_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:475px;
+    top:132px;
+    width:42px;
+    height:42px;
+}
+
+#u16_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:42px;
+    height:42px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:274px;
+    top:219px;
+    width:224px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:603px;
+    top:194px;
+    width:394px;
+    height:120px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
