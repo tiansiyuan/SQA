@@ -1,0 +1,831 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../用户密码重置_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../用户密码重置_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:768px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:774px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../用户密码重置_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:56px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_line {
+    background-image: url('../用户密码重置_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:844px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:190px;
+    top:61px;
+    width:844px;
+    height:10px;
+    
+}
+
+.u7_normal {
+    background-image: url('../用户密码重置_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:408px;
+    top:110px;
+    width:345px;
+    height:45px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:351px;
+    height:51px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:341px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../用户密码重置_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:10px;
+    top:66px;
+    width:180px;
+    height:56px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../用户密码重置_files/u9_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:10px;
+    top:122px;
+    width:180px;
+    height:56px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../用户密码重置_files/u9_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:10px;
+    top:178px;
+    width:180px;
+    height:56px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../用户密码重置_files/u9_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:10px;
+    top:234px;
+    width:180px;
+    height:56px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../用户密码重置_files/u7_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:408px;
+    top:234px;
+    width:345px;
+    height:45px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:351px;
+    height:51px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:341px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../用户密码重置_files/u7_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:407px;
+    top:357px;
+    width:345px;
+    height:45px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:351px;
+    height:51px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:341px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../用户密码重置_files/u7_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:408px;
+    top:295px;
+    width:345px;
+    height:45px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:351px;
+    height:51px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:341px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../用户密码重置_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:221px;
+    top:27px;
+    width:31px;
+    height:31px;
+}
+
+#u23_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25 {
+    position:absolute;
+    left:262px;
+    top:35px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../用户密码重置_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:284px;
+    top:526px;
+    width:150px;
+    height:39px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:45px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../用户密码重置_files/u26_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:489px;
+    top:526px;
+    width:150px;
+    height:39px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:45px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../用户密码重置_files/u26_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:695px;
+    top:526px;
+    width:150px;
+    height:39px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:45px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../用户密码重置_files/u7_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:408px;
+    top:172px;
+    width:345px;
+    height:45px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:351px;
+    height:51px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:341px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:508px;
+    top:30px;
+    width:127px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../用户密码重置_files/u35_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:304px;
+    top:199px;
+    width:552px;
+    height:376px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:558px;
+    height:382px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:180px;
+    width:548px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../用户密码重置_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:436px;
+    top:240px;
+    width:287px;
+    height:140px;
+}
+
+#u37_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:287px;
+    height:140px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:62px;
+    width:283px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:438px;
+    top:258px;
+    width:276px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:438px;
+    top:291px;
+    width:276px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:474px;
+    top:333px;
+    width:70px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:606px;
+    top:333px;
+    width:70px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../用户密码重置_files/u37_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:437px;
+    top:402px;
+    width:287px;
+    height:140px;
+}
+
+#u43_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:287px;
+    height:140px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:62px;
+    width:283px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:439px;
+    top:420px;
+    width:276px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:439px;
+    top:453px;
+    width:276px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:475px;
+    top:495px;
+    width:70px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:607px;
+    top:495px;
+    width:70px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

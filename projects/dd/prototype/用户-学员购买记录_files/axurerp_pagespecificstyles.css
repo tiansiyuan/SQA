@@ -1,0 +1,571 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../用户-学员购买记录_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../用户-学员购买记录_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:58px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:64px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:434px;
+    top:30px;
+    width:127px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_line {
+    background-image: url('../用户-学员购买记录_files/u5_line.png');
+}
+
+.u5_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1024px;
+    height:3px;
+}
+
+.u5 {
+    position:absolute;
+    left:10px;
+    top:124px;
+    width:1024px;
+    height:10px;
+    
+}
+
+.u6_normal {
+    background-image: url('../用户-学员购买记录_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:25px;
+    top:90px;
+    width:145px;
+    height:38px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../用户-学员购买记录_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:170px;
+    top:89px;
+    width:145px;
+    height:38px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../用户-学员购买记录_files/u8_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:315px;
+    top:90px;
+    width:145px;
+    height:38px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../用户-学员购买记录_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:460px;
+    top:89px;
+    width:145px;
+    height:38px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../用户-学员购买记录_files/u8_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:605px;
+    top:90px;
+    width:145px;
+    height:38px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../用户-学员购买记录_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:10px;
+    top:128px;
+    width:286px;
+    height:45px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:292px;
+    height:51px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:282px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../用户-学员购买记录_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:816px;
+    top:128px;
+    width:218px;
+    height:45px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:224px;
+    height:51px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:214px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../用户-学员购买记录_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:296px;
+    top:128px;
+    width:307px;
+    height:45px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:313px;
+    height:51px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:303px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../用户-学员购买记录_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:10px;
+    top:173px;
+    width:1024px;
+    height:43px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:49px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:88px;
+    top:188px;
+    width:144px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25 {
+    position:absolute;
+    left:431px;
+    top:188px;
+    width:49px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:695px;
+    top:188px;
+    width:49px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../用户-学员购买记录_files/u27_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:603px;
+    top:128px;
+    width:213px;
+    height:45px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:219px;
+    height:51px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:209px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:915px;
+    top:194px;
+    width:49px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../用户-学员购买记录_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:23px;
+    top:27px;
+    width:31px;
+    height:31px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:64px;
+    top:35px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,573 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:214px;
+    top:16px;
+    width:331px;
+    height:650px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:331px;
+    height:650px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:317px;
+    width:327px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../单词的列表页面_1_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:236px;
+    top:132px;
+    width:288px;
+    height:42px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:48px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../单词的列表页面_1_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:236px;
+    top:174px;
+    width:286px;
+    height:389px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:292px;
+    height:395px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:186px;
+    width:282px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:247px;
+    top:260px;
+    width:267px;
+    height:37px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:247px;
+    top:297px;
+    width:267px;
+    height:37px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:247px;
+    top:334px;
+    width:267px;
+    height:37px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:247px;
+    top:371px;
+    width:267px;
+    height:37px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:247px;
+    top:408px;
+    width:267px;
+    height:37px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:247px;
+    top:445px;
+    width:267px;
+    height:37px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:247px;
+    top:482px;
+    width:267px;
+    height:37px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../单词的列表页面_1_files/u6_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:247px;
+    top:519px;
+    width:267px;
+    height:37px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:43px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:263px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_line {
+    background-image: url('../单词的列表页面_1_files/u22_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:288px;
+    height:3px;
+}
+
+.u22 {
+    position:absolute;
+    left:236px;
+    top:243px;
+    width:288px;
+    height:10px;
+    
+}
+
+.u23 {
+    position:absolute;
+    left:247px;
+    top:184px;
+    width:150px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../单词的列表页面_1_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:292px;
+    top:204px;
+    width:172px;
+    height:35px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:178px;
+    height:41px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:168px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:349px;
+    top:140px;
+    width:62px;
+    height:23px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:439px;
+    top:153px;
+    width:73px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:577px;
+    top:186px;
+    width:440px;
+    height:136px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../单词的列表页面_1_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:484px;
+    top:139px;
+    width:31px;
+    height:31px;
+}
+
+#u29_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../单词的列表页面_1_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:247px;
+    top:139px;
+    width:28px;
+    height:28px;
+}
+
+#u31_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:28px;
+    height:28px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:24px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

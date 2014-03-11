@@ -1,0 +1,988 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../例句_1_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../例句_1_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:768px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:774px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_line {
+    background-image: url('../例句_1_files/u4_line.png');
+}
+
+.u4_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:844px;
+    height:3px;
+}
+
+.u4 {
+    position:absolute;
+    left:190px;
+    top:111px;
+    width:844px;
+    height:10px;
+    
+}
+
+.u5 {
+    position:absolute;
+    left:566px;
+    top:30px;
+    width:92px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_line {
+    background-image: url('../例句_1_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:844px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:190px;
+    top:61px;
+    width:844px;
+    height:10px;
+    
+}
+
+.u7_normal {
+    background-image: url('../例句_1_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:339px;
+    top:312px;
+    width:455px;
+    height:49px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:461px;
+    height:55px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:451px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:387px;
+    top:178px;
+    width:150px;
+    height:29px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../例句_1_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:471px;
+    top:605px;
+    width:191px;
+    height:43px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:49px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:339px;
+    top:251px;
+    width:150px;
+    height:29px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../例句_1_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:812px;
+    top:246px;
+    width:40px;
+    height:40px;
+}
+
+#u13_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:40px;
+    height:40px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:862px;
+    top:257px;
+    width:128px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../例句_1_files/u7_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:339px;
+    top:385px;
+    width:455px;
+    height:49px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:461px;
+    height:55px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:451px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../例句_1_files/u7_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:339px;
+    top:459px;
+    width:455px;
+    height:49px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:461px;
+    height:55px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:451px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:339px;
+    top:532px;
+    width:256px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../例句_1_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:827px;
+    top:319px;
+    width:35px;
+    height:35px;
+}
+
+#u21_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:35px;
+    height:35px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:31px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:872px;
+    top:329px;
+    width:150px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../例句_1_files/u21_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:826px;
+    top:392px;
+    width:35px;
+    height:35px;
+}
+
+#u24_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:35px;
+    height:35px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:31px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:872px;
+    top:402px;
+    width:150px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../例句_1_files/u21_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:828px;
+    top:466px;
+    width:35px;
+    height:35px;
+}
+
+#u27_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:35px;
+    height:35px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:31px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:873px;
+    top:476px;
+    width:150px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../例句_1_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:538px;
+    top:244px;
+    width:40px;
+    height:40px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:40px;
+    height:40px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:584px;
+    top:256px;
+    width:145px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../例句_1_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:193px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../例句_1_files/u33_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:327px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../例句_1_files/u33_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:467px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../例句_1_files/u33_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:604px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../例句_1_files/u41_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:746px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../例句_1_files/u33_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:885px;
+    top:77px;
+    width:145px;
+    height:38px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../例句_1_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:221px;
+    top:27px;
+    width:31px;
+    height:31px;
+}
+
+#u45_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:262px;
+    top:35px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../例句_1_files/u48_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:56px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../例句_1_files/u48_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:10px;
+    top:66px;
+    width:180px;
+    height:56px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52_normal {
+    background-image: url('../例句_1_files/u48_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:10px;
+    top:122px;
+    width:180px;
+    height:56px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../例句_1_files/u48_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:10px;
+    top:178px;
+    width:180px;
+    height:56px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../例句_1_files/u48_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:10px;
+    top:234px;
+    width:180px;
+    height:56px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

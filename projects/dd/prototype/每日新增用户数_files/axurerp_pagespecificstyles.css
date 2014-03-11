@@ -1,0 +1,578 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../每日新增用户数_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../每日新增用户数_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:58px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:64px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../每日新增用户数_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:17px;
+    top:27px;
+    width:31px;
+    height:31px;
+}
+
+#u4_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:58px;
+    top:35px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../每日新增用户数_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:190px;
+    top:132px;
+    width:844px;
+    height:45px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:850px;
+    height:51px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:840px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../每日新增用户数_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:10px;
+    top:132px;
+    width:315px;
+    height:45px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:321px;
+    height:51px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:311px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../每日新增用户数_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:325px;
+    top:132px;
+    width:351px;
+    height:45px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:357px;
+    height:51px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:347px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../每日新增用户数_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:10px;
+    top:93px;
+    width:145px;
+    height:38px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../每日新增用户数_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:148px;
+    top:93px;
+    width:145px;
+    height:38px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../每日新增用户数_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:676px;
+    top:132px;
+    width:358px;
+    height:45px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:364px;
+    height:51px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:354px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../每日新增用户数_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:10px;
+    top:178px;
+    width:1024px;
+    height:48px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:54px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:129px;
+    top:195px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:484px;
+    top:195px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23 {
+    position:absolute;
+    left:836px;
+    top:195px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../每日新增用户数_files/u15_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:284px;
+    top:93px;
+    width:145px;
+    height:38px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../每日新增用户数_files/u15_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:424px;
+    top:93px;
+    width:145px;
+    height:38px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:44px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:141px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:521px;
+    top:30px;
+    width:163px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../每日新增用户数_files/u19_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:10px;
+    top:226px;
+    width:1024px;
+    height:48px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:54px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:129px;
+    top:243px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:484px;
+    top:243px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:836px;
+    top:243px;
+    width:164px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

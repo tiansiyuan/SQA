@@ -1,0 +1,276 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_container {
+    position:absolute;
+    left:214px;
+    top:16px;
+    width:331px;
+    height:650px;
+}
+
+#u0_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:331px;
+    height:650px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:317px;
+    width:327px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_container {
+    position:absolute;
+    left:235px;
+    top:132px;
+    width:288px;
+    height:430px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:288px;
+    height:430px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:207px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../卡片集购买详细页面_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:235px;
+    top:132px;
+    width:288px;
+    height:42px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:48px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:284px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:577px;
+    top:186px;
+    width:440px;
+    height:88px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../卡片集购买详细页面_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:247px;
+    top:139px;
+    width:28px;
+    height:28px;
+}
+
+#u7_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:28px;
+    height:28px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:24px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../卡片集购买详细页面_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:235px;
+    top:174px;
+    width:288px;
+    height:388px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:394px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:186px;
+    width:284px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:304px;
+    top:240px;
+    width:150px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:304px;
+    top:277px;
+    width:150px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:304px;
+    top:314px;
+    width:150px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../卡片集购买详细页面_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:275px;
+    top:389px;
+    width:208px;
+    height:41px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:214px;
+    height:47px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:204px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

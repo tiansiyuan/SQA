@@ -1,0 +1,758 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../积分_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../积分_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:768px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:774px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:180px;
+    height:56px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_line {
+    background-image: url('../积分_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:844px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:190px;
+    top:61px;
+    width:844px;
+    height:10px;
+    
+}
+
+.u7_normal {
+    background-image: url('../积分_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:190px;
+    top:66px;
+    width:844px;
+    height:45px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:850px;
+    height:51px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:840px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../积分_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:190px;
+    top:66px;
+    width:249px;
+    height:45px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:255px;
+    height:51px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:245px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../积分_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:439px;
+    top:66px;
+    width:174px;
+    height:45px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:180px;
+    height:51px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:170px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:10px;
+    top:66px;
+    width:180px;
+    height:56px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../积分_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:787px;
+    top:66px;
+    width:247px;
+    height:45px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:253px;
+    height:51px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:243px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../积分_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:190px;
+    top:111px;
+    width:844px;
+    height:152px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:850px;
+    height:158px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:68px;
+    width:840px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:514px;
+    top:152px;
+    width:61px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:10px;
+    top:122px;
+    width:180px;
+    height:56px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../积分_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:911px;
+    top:25px;
+    width:31px;
+    height:31px;
+}
+
+#u22_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:949px;
+    top:33px;
+    width:70px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25 {
+    position:absolute;
+    left:508px;
+    top:30px;
+    width:127px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_line {
+    background-image: url('../积分_files/u26_line.png');
+}
+
+.u26_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:844px;
+    height:3px;
+}
+
+.u26 {
+    position:absolute;
+    left:190px;
+    top:590px;
+    width:844px;
+    height:10px;
+    
+}
+
+.u27_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:10px;
+    top:178px;
+    width:180px;
+    height:56px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:10px;
+    top:234px;
+    width:180px;
+    height:56px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:253px;
+    top:370px;
+    width:443px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../积分_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:10px;
+    top:290px;
+    width:180px;
+    height:56px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_container {
+    position:absolute;
+    left:634px;
+    top:130px;
+    width:133px;
+    height:115px;
+}
+
+#u34_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:133px;
+    height:115px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:50px;
+    width:129px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../积分_files/u11_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:613px;
+    top:66px;
+    width:174px;
+    height:45px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:180px;
+    height:51px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:170px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:294px;
+    top:152px;
+    width:61px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:894px;
+    top:163px;
+    width:93px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:10px;
+    top:346px;
+    width:180px;
+    height:56px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../积分_files/u4_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:10px;
+    top:402px;
+    width:180px;
+    height:56px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:62px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:176px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

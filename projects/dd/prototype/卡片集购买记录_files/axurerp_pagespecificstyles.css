@@ -1,0 +1,584 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../卡片集购买记录_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:768px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:774px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:376px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../卡片集购买记录_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:1024px;
+    height:58px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1030px;
+    height:64px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:382px;
+    top:31px;
+    width:283px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../卡片集购买记录_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:10px;
+    top:68px;
+    width:180px;
+    height:710px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:716px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:347px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../卡片集购买记录_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:10px;
+    top:170px;
+    width:180px;
+    height:50px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:56px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../卡片集购买记录_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:10px;
+    top:68px;
+    width:180px;
+    height:52px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:58px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../卡片集购买记录_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:10px;
+    top:220px;
+    width:180px;
+    height:48px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:54px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../卡片集购买记录_files/u7_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:10px;
+    top:120px;
+    width:180px;
+    height:50px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:56px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../卡片集购买记录_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:190px;
+    top:68px;
+    width:844px;
+    height:45px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:850px;
+    height:51px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:840px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../卡片集购买记录_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:190px;
+    top:68px;
+    width:251px;
+    height:45px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:257px;
+    height:51px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:247px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../卡片集购买记录_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:190px;
+    top:113px;
+    width:844px;
+    height:43px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:850px;
+    height:49px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:840px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:272px;
+    top:128px;
+    width:121px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../卡片集购买记录_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:441px;
+    top:68px;
+    width:188px;
+    height:45px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:194px;
+    height:51px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:184px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../卡片集购买记录_files/u22_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:629px;
+    top:68px;
+    width:188px;
+    height:45px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:194px;
+    height:51px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:184px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../卡片集购买记录_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:817px;
+    top:68px;
+    width:217px;
+    height:45px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:223px;
+    height:51px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:213px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:516px;
+    top:128px;
+    width:51px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:917px;
+    top:128px;
+    width:59px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:720px;
+    top:128px;
+    width:59px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../卡片集购买记录_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:19px;
+    top:27px;
+    width:31px;
+    height:31px;
+}
+
+#u31_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:31px;
+    height:31px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:27px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:60px;
+    top:35px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
