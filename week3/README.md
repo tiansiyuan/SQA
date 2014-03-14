@@ -1,4 +1,4 @@
-# Week 2, Testing 2
+# Week 3, Testing 2
 
 ### chapter 7
 
