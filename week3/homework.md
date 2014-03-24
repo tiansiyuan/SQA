@@ -1,8 +1,8 @@
 # Homework for Week 3
 
-1. Read  chapters 8, 9 of "Software Quality Engineering".
+1. Read  chapter 8, 9 of "Software Quality Engineering".
 
-2. each of the 7 groups ask one of the following questions
+2. each of the 8 groups answer one of the following questions
 
    -	Group A
    	Partition concepts & definitions
