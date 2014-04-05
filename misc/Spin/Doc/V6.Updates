@@ -1,0 +1,401 @@
+Distribution Update History of the SPIN sources
+===============================================
+
+==== Version 6.0 - 5 December 2010 ====
+
+The update history since 1989:
+
+ Version 0: Jan. 1989 - Jan. 1990  5.6K lines: original book version
+ Version 1: Jan. 1990 - Jan. 1995  7.9K lines: first version on netlib
+ Version 2: Jan. 1995 - Aug. 1997  6.1K lines: partial-order reduction
+ Version 3: Aug. 1997 - Jan. 2003 17.9K lines: bdd-like compression (MA)
+ Version 4: Jan. 2003 - Oct. 2007 28.2K lines: embedded c-code, bfs
+ Version 5: Oct. 2007 - Dec. 2010 32.8K lines: multi-core & swarm support
+ Version 6: Dec. 2010 -           36.8K lines: inline ltl formula, parallel bfs
+
+==== Version 6.0.0 - 5 December 2010 ====
+
+the main improvements in Spin version 6 are:
+
+- support for inline specification of LTL properties:
+        Instead of specifying a never claim, you can now
+        specify LTL formulae directly inside a verification model.
+        Any number of named LTL formulae can be listed and named.
+        The formulae are converted by Spin into never claims in the background,
+        and you can choose which property should be checked for any run
+        using a new pan runtime parameter pan -N name.
+        Example:
+                    ltl p1 { []<>p  }
+                    ltl p2 { <> (a > b) implies len(q) == 0 }
+
+        There are a few additional points to note:
+        -  Inline LTL properties state *positive* properties to prove, i.e.,
+           they do not need to be negated to find counter-examples.
+           (Spin performs the negation automatically in the conversions.)
+        -  You can use any valid Promela syntax to specify the predicates
+	   (state properties). See, for instance, the use of expressions (a>b)
+	   and (len(q) == 0) in the examples above.
+           So it is no longer needed to introduce macros for propositional symbols.
+        -  White space is irrelevant -- you can insert newlines anywhere in an LTL block
+	   (i.e., in the part of the LTL formula between the curly braces).
+        -  You can use textual alternatives to all temporal and some propositional operators.
+           This includes the terms always, eventually, until, weakuntil,
+           stronguntil, implies, equivalent, and release (the V operator),
+	   which are now keywords. So the first formula (p1) above could also be
+	   written as:
+                         ltl p1 {
+                                 always
+                                        eventually p /* maybe some comment here */
+                         }
+
+- Improved scope rules:
+        So far, there were only two levels of scope for variable
+        declarations: global or proctype local.
+        Version 6 adopts more traditional block scoping rules:
+        for instance, a variable declared inside an inline definition or inside
+        an atomic or non-atomic block now has scope that is limited to that inline or block.
+        You can revert to the old scope rules by using spin -O (the capital letter Oh)
+
+- New language constructs:
+	There are two new language constructs, that can simplify the specification
+	of common constructs: 'for' and 'select'. Both are implemented as meta-
+	terms, which means that they are translated by the parser into existing
+	language constructs (using 'do' or 'if').
+
+	The new 'for' construct has three different uses:
+		for (i : 1 .. 9) {
+			printf("i=%d\n", i)
+		}
+	simply prints the values from 1 through 9, meaning that the body of the
+	for is repeated once for each value in the range specified.
+		int a[10];
+		for (i in a) {
+			printf("a[%d] = %d\n", i, a[i])
+		}
+	is a way to repeat an fragment of code once for each element in an array.
+	In the example above, the printf will be executed once for each value from
+	0 through 9 (note that this is different from the first example).
+	This works for any array, independent of its type.
+	The last use of the for is on channels.
+		typedef utype { bin b; byte c; };
+		chan c = [10] of { utype };
+		utype x;
+		for (x in c) {
+			printf("b=%d c=%d\n", x.b, x.c)
+		}
+	which retrieves each message in the channel and makes it available for the
+	enclosed code. In this case, the channel (c above) must have been
+	declared with a single parameter, the type of which must match the variable
+	type specified in the for statement (the name before the 'in' keyword).
+	[Note that with the introduction of the new keyword 'in' some early
+	Spin models may now have syntax errors, if 'in' is used as a variable name.)
+
+	The second new language statement is 'select' and its use is illustrated
+	by this example:
+		int i;
+		select (i : 1..10);
+		printf("%d\n", i);
+	Select non-deterministically picks a value for i out of the range that
+	is provided.
+
+- Multiple never claims:
+        Other than multiple and named inline LTL properties, you can also include
+        multiple explicit (and named) never claims in a model. The name goes after
+        the keyword 'never' and before the curly brace.
+        As with inline LTL properties, the model checker will still only use one never
+        claim to perform a verification run, but you can choose on the
+        command line of pan which claim you want to use: pan -N name
+
+- Synchronous product of claims:
+        If multiple never claims are defined, you can use spin to
+        generate a single claim which encodes the synchronous product
+        of all never claims defined, using the new option: spin -e spec.pml
+	(this should rarely be needed).
+
+- Dot support:
+        A new option for the executable pan supports the generation of
+        the state tables in the format accepted by the dot tool from
+        graphviz: pan -D
+	The older ascii format remains available as pan -d.
+
+- Standardized output:
+        All filename / linenumber references are now in a new single standard
+        format, given as filename:linenumber, which allows postprocessing
+        tools to easily hotlink such references to the source.
+        This feature is exploited by the new replacement for xspin, called ispin
+        that will also be distributed soon.
+
+Smaller changes:
+
+- bugfix for line numbers being reported incorrectly in reachability reports
+- all filename linenumber references unified as filename:linenr
+
+==== Version 6.0.1 - 16 December 2010 ====
+
+- fixed a bug in the implementation of the new 'for' and 'select' statements
+  where the end of the range could be one larger than intended.
+- extend the implementation of the new for and select meta-statements
+  to allow expressions for the start and end value of the ranges
+- when executing on Windowns without cygwin, better treatment of filenames
+  with backslashes, avoiding that the backslash is interpreted as an
+  escape in the pan.h source
+- fix small problem in generation of pan.h, avoiding the string intialization
+  ""-"" (when what is intended is "-"). remarkably, the C compiler does not
+  complain about the first version and merrily subtracts the two addresses
+  of the constant string "" and returns a 0...
+- prevented the ltl conversion algorithm to run in verbose mode when spin -a
+  is run with a -v flag (this produced a large amount of uninteresting output)
+- also a couple of updates to the new iSpin GUI -- so that it works better
+  on smaller screens, and also displays the automata view better (by adding
+  option -o3 in the pan.c generation, so that all transitions are visible
+  in the automata displayed.)
+
+==== Version 6.1.0 - 4 May 2011 ====
+
+- removed calls to tmpfile(), which seems to fail on some Windows 7 systems
+- made it an error to have an 'else' statement combined with an i/o statement
+  when xs or xr assertions are used to strengthen the partial order reduction.
+  the 'else' would be equivalent to an 'empty()' call, which violates the
+  xr/xs rules and could make the partial order reduction unsound
+- avoid misinterpretation of U V an X characters when part of variable names
+  used in the new style of inline specification of ltl formula
+- improved treatment of remote references, under the new scope rules
+- some support for an experimental new version of bfs, not yet enabled
+- general code cleanup
+
+==== Version 6.2.0 - 4 May 2012 ====
+
+- added a new algorithm for parallel breadth-first search, with support for
+  the verification of both safety and at least some liveness properties
+  more detail is available at http://spinroot.com/spin/multicore/bfs.html
+
+  the main new directive to enable parallel breadth-first search mode is
+	-DBFS_PAR
+  by default the storage mode that is used is hashcompact in a fixed size
+  table (using open addressing).
+  by default verification will continue as long as possible, but it can be
+  forced to stop when the table is filled to capacity by defining
+	-DSTOP_ON_FULL
+  storage can be changed from hashcompact to full statevector storage with
+	-DNO_HC
+  (although this is not really recommended)
+  you can also use bitstate hashing instead, by compiling with
+	-DBITSTATE
+  and (independently) you can use diskstorage to save some memory, with
+	-DBFS_DISK
+  but this has the disadvantage of making the verifier run slower, defeating
+  much of the benefit of the parallel search algorithm.
+  the default maximum length of a cycle for liveness violations is set to 10
+  steps; this can be changed by defining
+	-DL_BOUND=N
+  (which is safe, but should rarely be necessary -- setting it too large
+  reduces the accuracy of the search (see the spin2012 paper)).
+
+  when no compare and swap function __sync_bool_compare_and_swap is predefined
+  (e.g. cygwin when compiling with gcc) you can define:
+	-DNO_CAS
+
+  the new -DBFS_PAR mode cannot be combined with -DBCS, -DNP, or -DMA
+
+- some new language features to support modeling priority-based embedded software
+  (more detail on this at http://spinroot.com/spin/multicore/priority.html)
+
+  a new predefined local variable in proctypes:
+	_priority	holds the current priority of the executing process
+  two new predefined functions:
+	get_priority(p)	returns the priority of process p (p can be an expression)
+	set_priority(p, c) sets priority of process p to c (p and c can be expressions)
+
+  the use of these priority features cannot be combined with rendezvous statements
+  and it requires compilation with -DNOREDUCE
+
+  when process priorities are used (and the new mode is not disabled with -o6
+  see below) then only the highest priority enabled process can run
+  process priorities must be in the range 1..255
+
+- inlines can now contain a return statement, but it can be used only in a
+  few simple cases to return a single integer value
+  using this feature a single inline call can now be used on the right-hand side
+  of a simple assignment statement, for example
+	x = f(a,b); 		# works
+  but not in other contexts where one would normally expect a value to be returned,
+  like an expression) e.g., these cases do not work:
+	if :: (a > fct()) ->	# does not work
+	if :: (fct()) ->	# does not work
+	x = f(a,b) + g(x)	# does not work
+  the return statement, being so restricted is of limited use, may therefore
+  disappear again in future versions
+
+- a label name can now appear also without a statement following it
+  (useful, for instance, to place a label at the end of the proctype or
+  sequence without having to add a dummy skip statement)
+
+- and else statement can now appear as the only option in an if or do
+  and then evaluates to 'true' -- this can be useful in some cases with
+  machine generated models
+
+- new spin options
+  spin option -o6 reverts to the old (pre 6.2.0) rules for interpreting
+  priority annotations
+  there's also a new experimental option -pp to improve the formatting of
+  a badly formatted spin model (e.g. machine generated).  it is far from perfect
+  and the option may therefore disappear again in some future version
+
+- restructed how pan.h is generated, to make sure that it does not declare any
+  objects, only prototypes, datatypes, and structures -- this makes it possible
+  to include pan.h safely in other files as well
+
+- also made separate compilation of claims and code work again (if you don't know
+  what this means, it's best that you don't learn it either...  it's an obscure
+  feature that almost nobody uses)
+
+- in bitstate mode the default size of the bitarray is now 16 MB (-w27), was 1MB (-w23)
+
+- in standard mode the default hashtable size is now -w24 (up from -w19)
+
+- bug fixes
+  the clang analyzer noted that the code in dstep.c left a local array buf
+  accessible via a global pointer (NextLab) also after the function returned.
+  corrected by declaring the local array as a static structure
+  similarly, removed some dead assignments in mesg.c flagged by clang.
+
+- cleaned up the scope rule enforcement a bit, so that top level local variable
+  declarations do not get any prefix -- simplifying the remote referencing
+  only declarations in inner-blocks or inlines are now affected, and get a scope
+  unique prefix (which is hidden from the user level in almost all cases)
+
+- corrected a problem noted on the spinroot forum that one could not use a
+  break statement inside the new 'for' construct (correction in spin.y and flow.c)
+  problem was that the break target was not defined early enough in the parsing
+
+- corrected a problem where label names were affected by the new scope rules,
+  causing some confusion with remote references and jumps
+
+- made the format of spin warning messages more consistent throughout the code
+
+- better recognition of invalid transition references in guided simulation
+  (scenario replay) in guided.c
+
+- statement merging is now disabled when proctype 'provided' clauses are used
+
+- corrected problem when an conditional expression was used in an argument to an inline
+
+- corrected problem when a remote reference was used as an array index inside an inline ltl formula
+
+- corrected the makefile to allow the use of multiple cores for parallel compilation
+  (using, for instance, "make -j 8")
+
+- now preventing assignments to the predefined local variable _pid (...)
+
+- fixed treatment of <-> or "equivalent" in ltl formula -- it wasn't always recognized correctly
+
+- some more general code cleanup
+
+==== Version 6.2.1 - 14 May 2012 ====
+
+- first bug in 6.2: the new 'select' statement was broken and triggered a
+  syntax error 'misplaced break statement' -- fixed
+
+==== Version 6.2.2 - 6 June 2012 ====
+
+- fixed bug in handling of the new 'set_priority' call. priorities were not
+  properly restored during the depth-first search, which could lead to
+  strange verification results.
+- fixed a bug that prevented use of parallel bfs in combination with collapse
+  compression. the combination isn't really recommended, but at least it
+  shouldn't crash of course... (the recommended mode for parallel bfs is
+  the default storage mode, which ias based on hashcompact, or bitstate).
+- added missing "extern YYSTYPE yylval;" in reprosrc.c, which prevented
+  compilation in some platforms
+- added warning against the use of hidden variables when using bfs
+- excluded run statements from statement merging, to secure correctness
+  when priority tags are used
+- omitted the message type field in datapackets exchanged with other cores
+  in parallel bfs mode, in those modes where the type field can be deduced
+  from other parts of the data, to reduce memory needed for the bfs queues
+
+==== Version 6.2.3 - 24 October 2012 ====
+
+- fixed bug when using BFS_DISK in combination with BFS_PAR
+- fixed a bug when using process priorities, added initialization for the
+  priority to make sure it is set when a priority is not explicitly defined
+- fixed code when using COLLAPSE in combination with BFS_PAR
+- added warning when replaying an error-trail for a model with embedded c-code,
+  to make sure the user knows that the c-code fragments are not executed.
+  to replay an error-trail for models with embedded c-code only the compiled
+  pan.c file can be used (e.g., by executing ./pan -C)
+- no longer pointing to /lib/cpp for preprocessing, which dates to early
+  unix system; the default is to use gcc, or plain cpp
+- renamed global vars j2, j3 and j4 in pan.c to j2_spin, j3_spin and j4_spin
+  to avoid potential name clashes with embedded c-code fragments in models
+- added hints in bfs parallel mode at end of runs if the hash-table could
+  be resized in a new run, to improve performance
+- small additional speedups in BFS_PAR mode (finetuning the wait discipline
+  when switching from one generation of states to the next)
+- changed the default max nr of cores in BFS_PAR mode from 32 to 64
+- better memory alignment in BFS_PAR mode
+- other small fixes and minor code cleanup
+
+==== Version 6.2.4 - 10 March 2013 ====
+
+- never claims generated from inline ltl formula are now automatically
+  added when replaying an error trial (so it will no longer say 'claim
+  ignored' in those cases)
+- improved treatment of the STDIN channel on linux systems
+- changed the format of never claims to improve error-trails
+  (by using an assertion in some cases instead of a goto to
+   the end of the claim -- this also includes changing 'if' into 'do'
+   in some cases, which may affect postprocessors that rely on the
+   older format)
+- changed parser to allow constant expressions in more places where
+  earlier only numeric constants were accepted (e.g., for active [...]
+  specifying the size of a channel, and the size of an array)
+- small improvements in memory use for parallel bfs mode (BFS_PAR)
+- added a BFS_NOTRAIL mode for parallel bfs, reducing memory use if
+  no counter-example error trail is expected
+- fixed bug in the evaluation of 'enabled(pid)' during verifications
+- fixed bug in implementation of weak-fairness algorithm, which could
+  in rare causes cause a fair cycle to go unreported.
+- improved calculation of hash-factor for very large bitstate spaces
+- fix bug introduced in 6.2.3 that gave a compiler error for -DBITSTATE
+- other minor code cleanup
+
+==== Version 6.2.5 - 4 May 2013 ====
+
+- fixed bug when priorities are used and statement merging is enabled
+  (the default) -- this could cause state updates to get out of sync,
+  leading to a possible crash of the verifier.
+- added the keyword "const" to many of the constant array declarations,
+  to reassure static analyzers that printfs would not alter the contents
+  of these arrays
+- fixed bug in verifier in handling of priority based scheduling, which
+  could lead it to erroneously get process ids wrong; fixed problems
+  with the use of priorities when used in combination with ltl properties
+  or never claims; fixed a bug that could lead to a crash due to not
+  correctly storing backup values for priorities that are modified
+  dynamically with 'set_priority()' calls
+- more small changes to appease static source code analyzers
+- increased various buffer sizes to allow the parsing of larger ltl formula
+
+==== Version 6.2.6 - 17 February 2014 ====
+
+- corrected bug in treatment of break statements hiding in unless constructs
+- corrected treatment of priorities (example by Mirtha Line Fernandez Venero)
+- added some new predefined routines to simplify integration with modex:
+  spin_malloc, spin_join, spin_mutex_free, spin_mutex_lock, spin_mutex_unlock,
+  and spn_mutex_init (not all of these may survive future updates)
+- added a new spin option -x to directly print the transition table for a model
+  (the option parses the model, generates pan.c, compiles it, and then
+   runs it with option -d)
+- ONE_L is now defined as 1L instead of (unsigned long) 1 to avoid a double
+  expansion of unsigned long to unsigned long long caused by a macro used
+  for compilation for 64-bit windows systems
+- mildly improved error reporting
+- doubled the size of the yacc parse stack (YYMAXSTACK), to support
+  parsing larger models
+
+==== Version 6.2.7 - 2 March 2014 ====
+
+- another fix of enforcement of priorities during verification
+- fixed a bug in treatment of -DT_RAND and -DP_RAND that could
+  lead to the analyzer hanging in some cases

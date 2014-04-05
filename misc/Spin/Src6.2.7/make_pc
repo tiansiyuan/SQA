@@ -1,0 +1,33 @@
+#!/bin/sh
+# SPIN - Verification Software - Version 6.2 - May 2012
+#
+# Tool documentation: http://spinroot.com/
+# bug-reports: bugs@spinroot.com            
+
+# This script is for compiling Spin on a PC with a Unix-like shell
+# It requires cygwin to be installed on your system, with:
+#	sh, gcc, yacc, echo, mv, and rm
+#	use of the Visual C++ compiler (cl) is not recommended
+# See also makefile for compiling Spin on a standard Unix/Linux system.
+
+yacc -v -d spin.y
+
+if false
+then	# on PC with standard gcc:
+	gcc -O2 -DPC -DNXT -DNOCAS -Wall -ansi -o spin.exe *.c		# -g -pg
+else
+	# Visual Studio for a standalone compilation
+	CFLAGS="-O2 -DPC -DNXT -D_CONSOLE -Zp4 -nologo -wd4996 -Fespin.exe"
+
+	if true	# 32 or 64 bit compilation:
+	then	cl -DWIN32 $CFLAGS *.c
+	else	cl -DWIN64 $CFLAGS *.c bufferoverflowu.lib
+	fi
+fi
+
+rm -f *.o *.obj
+rm -f y?tab.? y.output
+
+# install in the usual place on cygwin:
+echo "mv spin.exe /usr/bin"
+mv spin.exe /usr/bin
